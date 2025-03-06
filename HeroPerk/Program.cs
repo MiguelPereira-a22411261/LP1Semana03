@@ -43,6 +43,32 @@ namespace HeroPerk
                     break;
                 }
             }
+
+            if (unkPerk == true)
+            {
+                Console.WriteLine("!Unknown perk!");
+            }
+            else
+            {
+                if (perks == 0)
+                {
+                    Console.WriteLine("!No perks at all!");
+                }
+                else
+                {
+                    Console.WriteLine(perks);
+                }
+
+                if ((perks & silJ) == silJ)
+                {
+                    Console.WriteLine("!Silent jumper!");
+                }
+
+                if ((perks & Perks.AutoHeal) != Perks.AutoHeal)
+                {
+                    Console.WriteLine("!Not gonna make it!");
+                }
+            }
         }
     }
 }
