@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RightSize", "RightSize\Righ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeString", "ChangeString\ChangeString.csproj", "{A838F155-BB5C-4B51-A177-B3C16B9021CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMul", "ArrayMul\ArrayMul.csproj", "{A3EA6148-046F-4264-B6E9-E43781518887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroPerk", "HeroPerk\HeroPerk.csproj", "{88F0A9C7-B0EE-47DA-937E-4150E36C2028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{A838F155-BB5C-4B51-A177-B3C16B9021CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A838F155-BB5C-4B51-A177-B3C16B9021CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A838F155-BB5C-4B51-A177-B3C16B9021CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EA6148-046F-4264-B6E9-E43781518887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EA6148-046F-4264-B6E9-E43781518887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EA6148-046F-4264-B6E9-E43781518887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EA6148-046F-4264-B6E9-E43781518887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F0A9C7-B0EE-47DA-937E-4150E36C2028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F0A9C7-B0EE-47DA-937E-4150E36C2028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F0A9C7-B0EE-47DA-937E-4150E36C2028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F0A9C7-B0EE-47DA-937E-4150E36C2028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
