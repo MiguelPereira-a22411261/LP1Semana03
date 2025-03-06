@@ -6,9 +6,9 @@ namespace HeroPerk
     enum Perks
         {
             WarpShift = 1 << 0 ,
-            Stealth = 1 << 0,
-            AutoHeal = 1 << 0,
-            DoubleJump = 1 << 0
+            Stealth = 1 << 1,
+            AutoHeal = 1 << 2,
+            DoubleJump = 1 << 3
         }
     public class Program
     {
