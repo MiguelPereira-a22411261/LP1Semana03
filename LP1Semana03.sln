@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoPaSci", "RoPaSci\RoPaSci.csproj", "{CA594CED-DE27-4408-9DEB-07CDDDC0C145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponSelector", "WeaponSelector\WeaponSelector.csproj", "{FD0A45A8-656F-408C-99C5-32DF6AB18BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{CA594CED-DE27-4408-9DEB-07CDDDC0C145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA594CED-DE27-4408-9DEB-07CDDDC0C145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA594CED-DE27-4408-9DEB-07CDDDC0C145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0A45A8-656F-408C-99C5-32DF6AB18BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0A45A8-656F-408C-99C5-32DF6AB18BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0A45A8-656F-408C-99C5-32DF6AB18BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0A45A8-656F-408C-99C5-32DF6AB18BEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
