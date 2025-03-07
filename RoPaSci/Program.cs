@@ -52,7 +52,7 @@ namespace RoPaSci
             }
             else
             {
-                return GameStatus.Player2Wins; // Player 2 winsRoPa
+                return GameStatus.Player2Wins; // Player 2 wins
             }
         }
     }
