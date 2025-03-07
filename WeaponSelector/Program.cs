@@ -25,9 +25,24 @@ namespace WeaponSelector
         /// <returns>The weapons.</returns>
         private static Weapons ParseWeapons(string[] args)
         {
-            // ////////// //
-            // CHANGE ME! //
-            // ////////// //
+            Weapons weapon = 0;
+            foreach (string str in args)
+            {
+                if (str == "SilverBullet")
+                {
+                    weapon ^= Weapons.SilverBullet;
+                }
+                
+                if (str == "Garlic")
+                {
+                    weapon ^= Weapons.Garlic;
+                }
+
+                if (str == "HolyWater")
+                {
+                    weapon ^= Weapons.HolyWater;
+                }
+            }
         }
 
         /// <summary>
@@ -38,9 +53,17 @@ namespace WeaponSelector
         /// <returns>Wether the enemy was killed or not.</returns>
         private static bool WeaponsKillEnemy(EnemyType enemy, Weapons weapons)
         {
-            // ////////// //
-            // CHANGE ME! //
-            // ////////// //
+            bool dies = false;
+            if ((enemy == EnemyType.Zombie && weapons == Weapons.SilverBullet) ||
+                (enemy == EnemyType.Vampire && weapons == Weapons.Garlic) ||
+                (enemy == EnemyType.Vampire && weapons == Weapons.HolyWater) ||
+                (enemy == EnemyType.Werewolf && weapons == Weapons.SilverBullet) ||
+                (enemy == EnemyType.Ghost && weapons == Weapons.HolyWater))
+            {
+                return WeaponsKillEnemy(dies = true);
+            }
+
+            if 
         }
 
         /// <summary>
