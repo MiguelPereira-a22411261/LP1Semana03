@@ -42,17 +42,17 @@ namespace RoPaSci
         {
             if (player1 == player2)
             {
-                return 0; // Draw
+                return GameStatus.Draw; // Draw
             }
-            if (((player1 == "Rock") && (player2 == "Scissors")) ||
-                ((player1 == "Scissors") && (player2 == "Paper")) ||
-                ((player1 == "Paper") && (player2 == "Rock")))
+            if (((player1 == GameItem.Rock) && (player2 == GameItem.Scissors)) ||
+                ((player1 == GameItem.Scissors) && (player2 == GameItem.Paper)) ||
+                ((player1 == GameItem.Paper) && (player2 == GameItem.Rock)))
             {
-                return 1; // Player 1 wins
+                return GameStatus.Player1Wins; // Player 1 wins
             }
             else
             {
-                return 2; // Player 2 winsRoPa
+                return GameStatus.Player2Wins; // Player 2 winsRoPa
             }
         }
     }
